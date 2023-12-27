@@ -1,0 +1,56 @@
+body {
+    background-color: #CFEC9D;
+}
+
+
+/*
+border
+*/
+#title {
+    background-color: #CFEC9D;
+    color: #550600;
+    width: 350px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 50px;
+      font-family: 'Rubik';
+      font-size: 48px;
+
+
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.border {
+    height: 130px;
+    width: 330px;
+    background: linear-gradient(90deg, #550600 50%, transparent 50%), linear-gradient(90deg, #550600 50%, transparent 50%), linear-gradient(0deg, #550600 50%, transparent 50%), linear-gradient(0deg, #550600 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+    background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+    padding: 10px;
+    animation: border-dance 4s infinite linear;
+  }
+  @keyframes border-dance {
+    0% {
+      background-position: 0px 0px, 300px 146px, 0px 150px, 345px 0px;
+    }
+    100% {
+      background-position: 300px 0px, 0px 146px, 0px 0px, 346px 150px;
+    }
+  }
+
+
+/*
+GAME
+*/
+#garden {
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #A0C562;
+}
